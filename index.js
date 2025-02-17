@@ -26,3 +26,11 @@ buttonElement.addEventListener("click", () => {
 
   outputElement.textContent = letter;
 });
+
+// concise version
+buttonElement.addEventListener("click", () => {
+  outputElement.textContent = `Hello ${inputElement.value},
+  I am writing you from my vacation. This is so great!
+  Hope to see you soon.
+  Felix`;
+});
